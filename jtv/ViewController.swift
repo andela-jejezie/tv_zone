@@ -7,12 +7,21 @@
 //
 
 import UIKit
+import RealmSwift
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+//        Webservice().load(resource: Show.all!, completion: { result in
+//        
+//                dump(result)
+//            
+//            
+//            
+//        })
+        
     }
 
     override func didReceiveMemoryWarning() {
